@@ -1,0 +1,67 @@
+.main {
+  max-width: 76.875%;
+}
+
+.main__title {
+  max-width: 84.35%;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 1.074;
+  margin: 0 0 40px;
+}
+
+.main__quote {
+  font-size: 24px;
+  line-height: 1.4;
+  max-width: 75%;
+}
+
+.main__quote-text {
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.main__quote-author {
+  text-align: right;
+  margin: 0 0 32px;
+}
+
+.main__text {
+  max-width: 73.37%;
+  margin: 0;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    max-width: 93.75%;
+  }
+  .main__title {
+    max-width: 98.19%;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.089;
+    margin: 0 0 50px;
+  }
+
+  .main__quote {
+    max-width: 100%;
+  }
+
+  .main__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .main {
+    max-width: 90%;
+  }
+  .main__title {
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.094;
+    margin: 0 0 40px;
+  }
+}

@@ -1,0 +1,20 @@
+.page {
+  max-width: 100%;
+  background-color: #2a2c2f;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+  color: #fff;
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    gap: 64px;
+  }
+}
