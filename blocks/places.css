@@ -79,7 +79,7 @@
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
@@ -88,7 +88,7 @@
 }
 
 .places__button:hover {
-  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 100%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 @media screen and (max-width: 1024px) {
