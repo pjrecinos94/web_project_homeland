@@ -54,7 +54,7 @@
 .places__place-image {
   grid-area: image;
   max-width: 100%;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .places__place-image:hover {
@@ -148,6 +148,12 @@
 
   .places__place-text {
     margin: 0 16px;
+  }
+
+  .places__place-image {
+    grid-area: image;
+    max-width: 100%;
+    box-shadow: none;
   }
 
   .places__button {
